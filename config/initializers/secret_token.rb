@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-DogPark::Application.config.secret_key_base = '3fb816c097fb6853bf2a7aa809124ed28ae187659b2c46b3815838808b8118359550713c364f7995c58a0d11c28b8c25c38308d8b7236d25acb6f1ba917edf13'
+DogPark::Application.config.secret_key_base = ENV['SECRET_KEY_BASE']
